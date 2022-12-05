@@ -1,8 +1,8 @@
 # Audio Classification with 1d ConvNeXt: Investigating the effects of regularization techniques on model performance
 
-This project is focused on comparing the performance of a baseline model and 1d [ConvNeXt](https://arxiv.org/abs/2201.03545) model on the [ESC-50 dataset](https://github.com/karolpiczak/ESC-50), which is a collection of 2000 environmental audio recordings labeled with 50 different classes.
-
 [Train logs](https://wandb.ai/had/esc50?workspace=user-had)
+
+This project is focused on comparing the performance of a baseline model and 1d [ConvNeXt](https://arxiv.org/abs/2201.03545) model on the [ESC-50 dataset](https://github.com/karolpiczak/ESC-50), which is a collection of 2000 environmental audio recordings labeled with 50 different classes.
 
 The project aims to investigate the effects of various techniques, such as dropout, [SAM](https://github.com/davda54/sam), self-supervision, and training on raw data or learned features from [EnCodec](https://github.com/facebookresearch/encodec), on the model's ability to generalize and classify audio recordings accurately in a limited Google Colab setting.
 
